@@ -285,7 +285,7 @@ export default function Home() {
   );
 }
 
-function MenuIcon(props) {
+function MenuIcon(props: any): JSX.Element {
   return (
     <svg
       {...props}
